@@ -5,7 +5,7 @@
 
 module.exports = function(app)
 {
-	app.get('/',function(req,res){
+	app.get('/index',function(req,res){
 		var Client = require('node-rest-client').Client;
 		var client = new Client();
 		
